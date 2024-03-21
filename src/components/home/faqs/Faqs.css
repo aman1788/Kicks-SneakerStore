@@ -1,0 +1,14 @@
+.faq-container {
+    width: 82%;
+    margin: auto;
+}
+
+.faq-container>h3 {
+    color: #000;
+    font-family: var(--font-2);
+    font-size: 32px;
+}
+
+.faqs {
+    margin: 41px 0 0 24px;
+}

@@ -1,0 +1,12 @@
+.mens-banner {
+    width: 100vw;
+    height: 400px;
+    background: #E8E8E8;
+}
+
+.mens-kicks>h2 {
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+    margin: 26px 0 20px 0;
+}

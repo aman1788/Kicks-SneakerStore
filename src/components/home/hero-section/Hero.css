@@ -1,0 +1,56 @@
+.hero {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 590px;
+    background: linear-gradient(345deg, #D0D0D0 36.54%, rgba(208, 208, 208, 0.26) 59.32%, rgba(208, 208, 208, 0.00) 73.63%);
+}
+
+.hero>img {
+    width: 828px;
+    height: 416px;
+    margin: 8rem 0 0 3rem;
+}
+
+.cta {
+    position: absolute;
+    top: 16rem;
+    left: 65rem;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.caption>h3 {
+    color: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.caption>h4 {
+    color: #000;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 3px 0 0 5px;
+}
+
+.cta>button {
+    width: 81px;
+    height: 30px;
+    border-radius: 20px;
+    background: var(--main-white);
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: 0.3s;
+}
+
+.cta>button:hover {
+    color: var(--main-white);
+    background: #000;
+}

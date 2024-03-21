@@ -1,0 +1,25 @@
+.kicksgrid {
+    width: 85%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.kicksgrid h3 {
+    color: #000;
+    font-family: var(--font-2);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.kicks-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 26px;
+}
+
+.grid .kicks-cards {
+    justify-content: normal;
+}

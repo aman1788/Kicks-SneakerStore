@@ -1,0 +1,44 @@
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-img {
+    width: 181px;
+    height: 178px;
+    border-radius: 100px;
+    margin: 0 15px 0 94px;
+}
+
+.rev-description>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.rev-description>div>div {
+    margin-right: 6rem;
+}
+
+.rev-description>div>h5 {
+    color: #000;
+    font-family: var(--font-2);
+    font-size: 18px;
+}
+
+.stars .fa-star {
+    font-size: 14px;
+    margin: 0 1.5px;
+}
+
+.rev-description>p {
+    width: 520px;
+    text-align: left;
+    color: #000;
+    font-family: var(--font-2);
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 94px;
+}

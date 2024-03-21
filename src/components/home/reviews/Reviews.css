@@ -1,0 +1,29 @@
+.review-container {
+    margin-bottom: 165px;
+}
+
+
+.review-container>h3 {
+    color: #000;
+    text-align: center;
+    font-family: var(--font-2);
+    font-size: 32px;
+    margin-bottom: 63px;
+}
+
+.reviews {
+    /* width: 1216px; */
+    width: 80%;
+    height: 297px;
+    margin: auto;
+    border-radius: 12px;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews>button {
+    background: none;
+    cursor: pointer;
+}

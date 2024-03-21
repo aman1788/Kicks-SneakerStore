@@ -1,0 +1,62 @@
+.bnw-kicks {
+    margin: 151px 0 120px;
+}
+
+.bnw-kicks>h3 {
+    color: #000;
+    font-family: var(--font-2);
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.kicks-slider {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 493px;
+
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+}
+
+.bnwcards {
+    display: flex;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    width: 88%;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.bnwcards::-webkit-scrollbar {
+    display: none;
+}
+
+.next-btn {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 50px;
+    cursor: pointer;
+    right: 5rem;
+}
+
+.prev-btn {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 50px;
+    cursor: pointer;
+    left: 3rem;
+}
